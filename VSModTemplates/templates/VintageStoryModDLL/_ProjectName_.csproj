@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+		<PathMap>$(MSBuildProjectDirectory)=$(MSBuildProjectName)/</PathMap>
   </PropertyGroup>
 
   <ItemGroup>
